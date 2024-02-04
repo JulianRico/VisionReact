@@ -2,7 +2,7 @@
 FROM node:16.20.2
 
 # Establece el directorio de trabajo en /usr/src/app
-WORKDIR /src/app
+WORKDIR /usr/src/app
 
 # Copia el archivo package.json e package-lock.json para aprovechar el caché de las capas de Docker
 COPY package*.json ./
